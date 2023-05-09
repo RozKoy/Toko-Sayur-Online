@@ -22,9 +22,9 @@ const Home = ({ navigation }) => {
         <View style={styles.atas}>
           <View style={{flexDirection:'row',justifyContent:'space-between'}}>
 
-            <Image style={{width:35,height:35}} source={require('../assets/logoToko1.png')}/>
+            <Image style={{width:40,height:40}} source={require('../assets/logoToko1.png')}/>
             <Text
-              style={{ fontSize: 18, color: '#0D986A', fontWeight: 'bold',marginTop:5 }}>
+              style={{ fontSize: 23, color: '#0D986A', fontWeight: 'bold',marginTop:5 }}>
               Toko Sayuran
             </Text>
           </View>
@@ -33,12 +33,12 @@ const Home = ({ navigation }) => {
             <FontAwesome5
               style={{ paddingRight: 12 }}
               name="search"
-              size={20}
+              size={21}
               color="#435B71"
             />
 
             <TouchableOpacity onPress={() => navigation.navigate('')}>
-               <Image source={require('../assets/shop.svg')} />
+               <Image style={{width:21,height:21}} source={require('../assets/shop.png')} />
              </TouchableOpacity>
            
           </View>
@@ -59,7 +59,7 @@ const Home = ({ navigation }) => {
           style={{
             marginTop: 10,
             marginLeft: 16,
-            fontSize: 15,
+            fontSize: 19,
             fontWeight: 'bold',
             color: '#002140',
           }}>
@@ -71,12 +71,12 @@ const Home = ({ navigation }) => {
         style={{
           flexDirection: 'row',
           justifyContent: 'space-around',
-          marginTop: 11,
+          marginTop: 20,
       
         }}>
           <View style={{justifyContent:'center',alignItems:'center'}}>
             <TouchableOpacity onPress={() => navigation.navigate('')}>
-              <Image source={require('../assets/sayuran.svg')} />
+              <Image style={{width:35,height:30}} source={require('../assets/sayuran1.png')} />
             </TouchableOpacity>
                       <Text style={{fontSize:12,
               fontWeight:'medium',color:'#0D986A',
@@ -85,7 +85,7 @@ const Home = ({ navigation }) => {
 
           <View style={{justifyContent:'center',alignItems:'center'}}>
             <TouchableOpacity onPress={() => navigation.navigate('')}>
-              <Image source={require('../assets/buah.svg')} />
+              <Image style={{width:32,height:30}} source={require('../assets/buah.png')} />
             </TouchableOpacity>
                       <Text style={{fontSize:12,
               fontWeight:'medium',color:'#0D986A',
@@ -94,7 +94,7 @@ const Home = ({ navigation }) => {
 
           <View style={{justifyContent:'center',alignItems:'center'}}>
             <TouchableOpacity onPress={() => navigation.navigate('')}>
-              <Image source={require('../assets/paketSayur.svg')} />
+              <Image style={{width:40,height:30}} source={require('../assets/paketSayur.png')} />
             </TouchableOpacity>
                     <Text style={{fontSize:12,
             fontWeight:'medium',color:'#0D986A',
@@ -103,7 +103,7 @@ const Home = ({ navigation }) => {
 
           <View style={{justifyContent:'center',alignItems:'center'}}>
             <TouchableOpacity onPress={() => navigation.navigate('')}>
-              <Image source={require('../assets/paketBuah.svg')} />
+              <Image style={{width:33,height:30}} source={require('../assets/paketBuah.png')} />
             </TouchableOpacity>
                     <Text style={{fontSize:12,
             fontWeight:'medium',color:'#0D986A',
@@ -112,7 +112,7 @@ const Home = ({ navigation }) => {
 
           <View style={{justifyContent:'center',alignItems:'center'}}>
             <TouchableOpacity onPress={() => navigation.navigate('')}>
-              <Image source={require('../assets/paketCampur.svg')} />
+              <Image style={{width:45,height:30}} source={require('../assets/paketCampur.png')} />
             </TouchableOpacity>
                       <Text style={{fontSize:12,
               fontWeight:'medium',color:'#0D986A',
@@ -124,26 +124,26 @@ const Home = ({ navigation }) => {
       </View>
 
 
-      <View style={{width:300,height:120, backgroundColor:'#DCE8D6',borderRadius:10,marginTop:12,marginLeft:12}}>
-        <View style={{flexDirection:'row'}}>
-            <Image source={require('../assets/Intersect.png')} />
+      <View style={{width:350,height:150, backgroundColor:'#DCE8D6',borderRadius:10,marginTop:25,marginLeft:12,paddingTop:20}}>
+        <View style={{flexDirection:'row',paddingLeft:20}}>
+            <Image style={{width:100,height:110,borderRadius:5}} source={require('../assets/brokoli1.jpg')} />
 
             <View style={{marginTop:30,marginLeft:20}}>
-              <Text style={{fontSize:12.57,fontWeight:'bold',color:'#002140'}}>Nama Sayuran</Text>
-              <Text style={{fontSize:12.57,fontWeight:'medium',color:'#002140'}}>Rp 0000/Kg</Text>
+              <Text style={{fontSize:17,fontWeight:'bold',color:'#002140'}}>Nama Sayuran</Text>
+              <Text style={{fontSize:15,fontWeight:'medium',color:'#002140'}}>Rp 0000/Kg</Text>
             </View>
 
             
         </View>
       </View>
 
-      <View style={{width:293,height:120, backgroundColor:'#D6E4E8',borderRadius:10,marginTop:20,marginLeft:12}}>
-        <View style={{flexDirection:'row'}}>
-            <Image source={require('../assets/Intersect.png')} />
+      <View style={{width:340,height:150, backgroundColor:'#D6E4E8',borderRadius:10,marginTop:20,marginLeft:12, paddingTop:20}}>
+        <View style={{flexDirection:'row',paddingLeft:20}}>
+            <Image style={{width:100,height:110,borderRadius:5}} source={require('../assets/brokoli1.jpg')} />
 
             <View style={{marginTop:30,marginLeft:20}}>
-             <Text style={{fontSize:12.57,fontWeight:'bold',color:'#002140'}}>Nama Sayuran</Text>
-              <Text style={{fontSize:12.57,fontWeight:'medium',color:'#002140'}}>Rp 0000/Kg</Text>
+             <Text style={{fontSize:17,fontWeight:'bold',color:'#002140'}}>Nama Sayuran</Text>
+              <Text style={{fontSize:15,fontWeight:'medium',color:'#002140'}}>Rp 0000/Kg</Text>
             </View>
         </View>
 
@@ -153,15 +153,15 @@ const Home = ({ navigation }) => {
 
         <View style={{flexDirection:'row', justifyContent:'space-around',marginTop:25}}>
           <TouchableOpacity onPress={() => navigation.navigate('')}>
-            <Image source={require('../assets/home.svg')} />
+            <Image style={{width:20,height:20}} source={require('../assets/home.png')} />
           </TouchableOpacity>
 
           <TouchableOpacity onPress={() => navigation.navigate('')}>
-            <Image source={require('../assets/shop.svg')} />
+            <Image style={{width:19,height:20}} source={require('../assets/shopping.png')} />
           </TouchableOpacity>
           
           <TouchableOpacity onPress={() => navigation.navigate('')}> 
-            <Image source={require('../assets/nota.svg')} />
+            <Image style={{width:20,height:20}} source={require('../assets/invoice.png')} />
           </TouchableOpacity>
 
           <TouchableOpacity onPress={() => navigation.navigate('')}>
@@ -192,8 +192,8 @@ const styles = StyleSheet.create({
   top: {
     width: '100%',
     alignItems: 'center',
-    padding: 11,
-    marginTop: 10,
+    padding: 15,
+    marginTop: 50,
   },
   atas: {
     width: '100%',
@@ -205,7 +205,9 @@ const styles = StyleSheet.create({
      width:'100%',
      height:60,
      backgroundColor:'#FFFFFF',
+    
      borderRadius:15,
+     marginTop:30,
 
    },
 
