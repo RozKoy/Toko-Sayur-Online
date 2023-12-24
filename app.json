@@ -1,0 +1,30 @@
+{
+	"expo": {
+		"name": "Toko Sayur Online",
+		"slug": "snack-1ebdf621-ab32-40b5-8b94-e8f9dcb1a69d",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"assetBundlePatterns": [
+			"**/*"
+		],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			}
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		}
+	}
+}
